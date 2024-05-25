@@ -84,10 +84,6 @@ This is the backend for a simple social media application built using the MERN s
 
    The frontend code is available in a separate repository. You can find it [here](https://github.com/iAtif/social-media-frontend.git).
 
-   ```
-
-   ```
-
 ## API Endpoints
 
 ### Authentication
