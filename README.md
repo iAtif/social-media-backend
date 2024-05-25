@@ -1,7 +1,3 @@
-Here is a README file tailored for the backend part of your project:
-
----
-
 # Simple Social Media Application - Backend
 
 This is the backend for a simple social media application built using the MERN stack (MongoDB, Express.js, React.js, Node.js) with user authentication and authorization features. This backend service handles user registration, login, post creation, post interaction, and post management with secure authentication using JWT.
