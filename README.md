@@ -4,25 +4,22 @@ This is the backend for a simple social media application built using the MERN s
 
 ## Features
 
-### 1. User Authentication
+1. **User Authentication**
 
-- Implement user registration and login functionality.
-- Use JWT for secure authentication.
+   - Sign up and log in.
+   - Secure authentication with JWT.
 
-### 2. Post Creation
+2. **Post Creation**
 
-- Allow authenticated users to create posts.
-- Each post should include an image and a description.
+   - Create posts with images and descriptions.
 
-### 3. Post Interaction
+3. **Post Interaction**
 
-- Users should be able to like posts created by others.
-- Display the number of likes for each post.
+   - Like posts created by others.
+   - See the number of likes for each post.
 
-### 4. Post Management
-
-- Only the user who created a post should have the ability to delete it.
-- Implement authorization checks to enforce this rule.
+4. **Post Management**
+   - Only the creator can edit or delete their post.
 
 ## Requirements
 
