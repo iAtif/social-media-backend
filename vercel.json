@@ -1,12 +1,22 @@
 {
-  "version":2,
+  "version": 2,
+  "name": "backend",
   "builds": [
     { "src": "server.js", "use": "@vercel/node" }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/server.js"
+      "dest": "/server.js",
+      "headers": {
+        "x-vercel-cache-control": "s-maxage=10, stale-while-revalidate=59"
+      }
     }
-  ]
+  ],
+  "functions": {
+    "api/*.js": {
+      "memory": 1024,
+      "maxDuration": 10
+    }
+  }
 }
