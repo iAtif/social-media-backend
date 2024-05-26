@@ -18,6 +18,11 @@ app.use(express.json());
 app.use(cors());
 app.use(express.static("public/images"));
 
+// Define the root route
+app.get("/", (req, res) => {
+  res.send("Welcome to the backend API");
+});
+
 // Use the authentication routes
 app.use("/auth", authRoute);
 app.use("/post", postRoute);
