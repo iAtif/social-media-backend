@@ -27,12 +27,6 @@ This is the backend for a simple social media application built using the MERN s
 - **Database**: MongoDB
 - **Authentication**: JWT for user authentication.
 
-## Evaluation Criteria
-
-- **Code Quality**: Clean, well-documented, and maintainable code.
-- **Functionality**: Correct implementation of the specified features.
-- **Security**: Proper handling of authentication and authorization.
-
 ## Setup Instructions
 
 ### Prerequisites
@@ -46,8 +40,8 @@ This is the backend for a simple social media application built using the MERN s
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-username/your-backend-repo-name.git
-   cd your-backend-repo-name
+   git clone https://github.com/iAtif/social-media-backend.git
+   cd social-media-backend
    ```
 
 2. **Install dependencies:**
