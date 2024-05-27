@@ -57,7 +57,7 @@ This is the backend for a simple social media application built using the MERN s
    ```env
    PORT=5000
    MONGODB_URI=your-mongodb-uri
-   JWT_SECRET=your-jwt-secret
+   SECRET_KEY=your-jwt-secret
    ```
 
 4. **Run the application:**
